@@ -57,6 +57,8 @@ var g_vertexIndexBuffer;
 function main() {
   // Retrieve <canvas> element
   var canvas = document.getElementById('webgl');
+  canvas.width  = window.innerWidth;
+  canvas.height = window.innerHeight;
 
   // Get the rendering context for WebGL
   var gl = getWebGLContext(canvas);

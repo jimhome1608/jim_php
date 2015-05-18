@@ -5,8 +5,7 @@
     <title>Lighting demo (specular)</title>
   </head>
 
-  <body onload="main()">
-    <h2> This is the about page</h2> 
+  <body onload="main()"> 
     <canvas id="webgl" width="100%" height="100%">
     Please use a browser that supports "canvas"
     </canvas>
@@ -15,6 +14,6 @@
     <script src="../lib/webgl-debug.js"></script>
     <script src="../lib/cuon-utils.js"></script>
     <script src="../lib/cuon-matrix.js"></script>
-    <script src="cube.js"></script>
+    <script src="../lib/cube.js"></script>
   </body>
 </html>
