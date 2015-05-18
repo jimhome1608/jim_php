@@ -5,8 +5,8 @@
     <title>Lighting demo (specular)</title>
   </head>
 
-  <body onload="main()">
-    <canvas id="webgl" width="400" height="400">
+  <body onload="main()"> 
+    <canvas id="webgl" width="100%" height="100%">
     Please use a browser that supports "canvas"
     </canvas>
 

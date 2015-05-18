@@ -1,0 +1,1 @@
+<h2>Your News has been saved</h2>
