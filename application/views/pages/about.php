@@ -1,1 +1,1 @@
-<h2> This is the about page</h2>
+<img src="../images/Owl.jpg" />

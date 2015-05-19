@@ -16,7 +16,7 @@ public function view($page = 'home')
                 show_404();
         }
         $data['title'] = ucfirst($page);
-        if ($page == 'cube')
+       // if ($page == 'Home')
            $data['title'] = ''; //ucfirst($page); // Capitalize the first letter
 
         $this->load->view('templates/header', $data);
